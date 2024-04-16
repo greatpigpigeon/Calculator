@@ -64,7 +64,7 @@ window.geometry("600x500")
 window.minsize(525, 450)
 window.title("Calculator")
 window.config(bg="#bab0e9")
-photo = tk.PhotoImage(file="func.png")
+photo = tk.PhotoImage(file="templates/func.png")
 window.iconphoto(False, photo)
 
 title = tk.Label(window, text="Quadratic equation calculator",
@@ -123,9 +123,9 @@ result_label = tk.Label(main_frame,
                         bg="#bab0e9",
                         anchor="c")
 
-calculate_image = tk.PhotoImage(file="calculate.png")
+calculate_image = tk.PhotoImage(file="templates/calculate.png")
 calculate_button = create_button(calculate_image, calculate_result)
-clear_image = tk.PhotoImage(file="clear.png")
+clear_image = tk.PhotoImage(file="templates/clear.png")
 clear_button = create_button(clear_image, clear)
 
 calculate_button.pack(side="left")
