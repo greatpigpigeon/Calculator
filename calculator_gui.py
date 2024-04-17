@@ -1,5 +1,5 @@
 import tkinter as tk
-from quadratic_equation_solver_aletse import solver
+from quadratic_equation_solver_package_aletse import solver
 
 
 def create_equation_label(text: str):
