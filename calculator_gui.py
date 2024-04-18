@@ -6,8 +6,7 @@ def create_equation_label(text: str):
     return tk.Label(equation_frame, text=text,
                     font=("Regular", 14),
                     fg="#3d3176",
-                    bg="white",
-                    anchor="c")
+                    bg="white")
 
 
 def create_equation_entry():
@@ -70,8 +69,7 @@ window.iconphoto(False, photo)
 title = tk.Label(window, text="Quadratic equation calculator",
                  font=("Regular", 18, "bold"),
                  fg="white",
-                 bg="#3d3176",
-                 anchor="c")
+                 bg="#3d3176")
 title.pack(fill="x", ipadx=30, ipady=30)
 
 main_frame = tk.Frame(window, bg="#bab0e9")
@@ -80,8 +78,7 @@ main_frame.pack(padx=90)
 instructions = tk.Label(main_frame, text="Enter the values of the constants in\nthe quadratic equation.",
                         font=("Regular", 14),
                         fg="#3d3176",
-                        bg="#bab0e9",
-                        anchor="c")
+                        bg="#bab0e9")
 instructions.pack(ipadx=30, ipady=30)
 
 equation_frame = tk.Frame(main_frame, bg="white", padx=5, pady=5)
@@ -120,8 +117,7 @@ buttons_frame.pack()
 result_label = tk.Label(main_frame,
                         font=("Regular", 14),
                         fg="#3d3176",
-                        bg="#bab0e9",
-                        anchor="c")
+                        bg="#bab0e9")
 
 calculate_image = tk.PhotoImage(file="templates/calculate.png")
 calculate_button = create_button(calculate_image, calculate_result)
